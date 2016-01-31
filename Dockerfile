@@ -11,7 +11,6 @@ RUN easy_install web.py
 RUN easy_install mako
 RUN easy_install pymongo
 RUN easy_install feedparser
-#RUN easy_install tweepy
 RUN  git clone git://github.com/joshthecoder/tweepy.git
 RUN  cd tweepy && python setup.py install
 
