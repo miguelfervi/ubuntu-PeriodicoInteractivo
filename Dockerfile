@@ -13,6 +13,6 @@ RUN easy_install pymongo
 RUN easy_install feedparser
 
 
-# Descargamos y lanzamos la aplicación
+# Descargamos y lanzamos la aplicación para funcionamiento
 RUN git clone https://github.com/miguelfervi/ProjectCC.git /home/PeriodicoInteractivo
 RUN cd /home/PeriodicoInteractivo && python script.py
