@@ -1,4 +1,4 @@
-# ubuntu-periodicointeractivo
+# ubuntu-PeriodicoInteractivo
 FROM ubuntu
 MAINTAINER Miguel Fernández Villegas <miguelfervi@gmail.comm>  Version: 1.3
 
