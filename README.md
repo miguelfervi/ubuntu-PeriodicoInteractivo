@@ -4,4 +4,4 @@ Dockerfile con imagen de Ubuntu y las herramientas necesarias para desplegar la 
 
 
 
-Para cargar la imagen Docker ejecutar docker pull jcristobal/ubuntu-periodicointeractivo
+Para cargar la imagen Docker ejecutar docker pull miguelfervi/ubuntu-periodicointeractivo
