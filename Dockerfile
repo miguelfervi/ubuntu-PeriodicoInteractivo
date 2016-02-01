@@ -1,6 +1,6 @@
-# ubuntu-PeriodicoInteractivo
+# ubuntu-periodicointeractivo
 FROM ubuntu
-MAINTAINER Miguel Fernández Villegas <miguelfervi@gmail.comm>  Version: 1.3
+MAINTAINER Miguel Fernández VIllegas <miguelfervi@gmail.com>  Version: 1.1
 
 # Instalaremos los paquetes y herramientas necesarias para el despliegue de la aplicación
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
@@ -12,7 +12,5 @@ RUN easy_install mako
 RUN easy_install pymongo
 RUN easy_install feedparser
 
-
-# Descargamos y lanzamos la aplicación para funcionamiento
+# Descargamos la aplicación
 RUN git clone https://github.com/miguelfervi/ProjectCC.git /home/PeriodicoInteractivo
-RUN cd /home/PeriodicoInteractivo && python script.py
